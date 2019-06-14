@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "380661423779",
+    "firebase_url": "https://test-app-c625d.firebaseio.com",
+    "project_id": "test-app-c625d",
+    "storage_bucket": "test-app-c625d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:380661423779:android:85e602ff765ae7f2",
+        "android_client_info": {
+          "package_name": "us.gopinath.testone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "380661423779-lrlclaps80rn11r0154eiukllbl5hukc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_wpZVwJZqdTd1pSvrJPoVw1N9bjuMCx4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "380661423779-lrlclaps80rn11r0154eiukllbl5hukc.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "380661423779-vqus3ien5r0646setolpl3fpuso4huo7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "us.gopinath.testone",
+                "app_store_id": "1468229317"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
