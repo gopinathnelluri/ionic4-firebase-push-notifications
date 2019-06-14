@@ -10,7 +10,7 @@ Ionic:
 Cordova:
 
    Cordova CLI       : 8.0.0
-   Cordova Platforms : android 7.0.0
+   Cordova Platforms : android 7.0.0, ios 4.5.5
    Cordova Plugins   : cordova-plugin-ionic-keyboard 2.1.3, cordova-plugin-ionic-webview 4.1.0, (and 5 other plugins)
 
 Utility:
@@ -29,4 +29,5 @@ System:
 
 Changes:
 
-    Android: build.gradle add google(); change maven() to last
+    Android: build.gradle add google(); change maven() to last for dependencies
+    iOS: switch to legacy build, building errors for .xarchive file can be ignored
