@@ -36,45 +36,13 @@ export class AppComponent {
     this.fcm.getToken();
     this.fcm.onNotifications().subscribe(
       (msg) => {
+        // this.msg = msg;
         if (this.platform.is('ios')) {
-          this.presentToast(msg.aps.alert);
+          this.presentToast(msg.aps.alert.body);
         } else {
           this.presentToast(msg.body);
         }
       });
-  }
-
-  private notificationSetup1() {
-    /*
-    this.fcm.getToken().then(token => {
-      console.log('token:', token);
-    });
-
-    this.fcm.onTokenRefresh().subscribe(token => {
-      console.log(token);
-    });
-
-    this.fcm.onNotification().subscribe(
-      (msg) => {
-        if (this.platform.is('ios')) {
-          console.log('\n=========ios========\n');
-          console.log(msg.aps.alert);
-          console.log('\n=========ios========\n');
-          this.presentToast(msg.aps.alert);
-        } else {
-          console.log('\n=========android========\n');
-          console.log(msg.body);
-          console.log('\n=========android========\n');
-          this.presentToast(msg.body);
-        }
-
-        if (msg.wasTapped) {
-          console.log('Received in background');
-        } else {
-          console.log('Received in foreground');
-        }
-      });
-      */
   }
 
   initializeApp() {
